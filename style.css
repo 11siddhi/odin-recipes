@@ -1,0 +1,41 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+    color: palegreen;
+    background-color: orangered;
+    text-align: center;
+}
+
+/* changes the color of list's bullet points */
+.index li::marker {
+    color: orangered;
+    text-align: center;
+}
+
+.recipe-link {
+    color: orangered;
+    font-weight: 900;
+}
+
+/* for french-roast page */
+div {
+    text-align: center;
+}
+
+.heading {
+    color: #711809;
+    text-align: center;
+    font-weight: 1000;
+    background-color: #F2A14C;
+}
+
+.content {
+    color: #824027;
+    font-weight: 600;
+}
+
+.ft-title {
+    color: maroon;
+}
