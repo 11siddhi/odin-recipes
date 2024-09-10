@@ -2,6 +2,9 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+.content {
+    font-size: 18px;
+}
 .index .title {
     color: #004225;
     background-color: #E86A33;
@@ -38,7 +41,7 @@ div {
     font-weight: 600;
 }
 
-.french-toast-title {
+.french-toast .title {
     color: #711809;
     background-color: #F2A14C;
     text-align: center;
@@ -62,5 +65,25 @@ div {
     color: #6D3030;
     background-color: #DBB0B8;
     text-align: center;
-    font: 1000;
+    font-weight: 1000;
+}
+
+/* for pizza */
+.pizza .heading {
+    color: #251104;
+    text-align: center;
+    font-weight: 1000;
+    background-color: #C66504;
+}
+
+.pizza .content {
+    font-weight: 600;
+    color: #5A3720;
+}
+
+.pizza .title {
+    color: #251104;
+    background-color: #C66504;
+    text-align: center;
+    font-weight: 1000;
 }
