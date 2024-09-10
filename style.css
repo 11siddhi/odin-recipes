@@ -2,40 +2,65 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.title {
-    color: palegreen;
-    background-color: orangered;
+.index .title {
+    color: #004225;
+    background-color: #E86A33;
     text-align: center;
+    font-weight: 1000;
 }
 
 /* changes the color of list's bullet points */
 .index li::marker {
-    color: orangered;
+    color: #E86A33;
     text-align: center;
 }
 
 .recipe-link {
-    color: orangered;
+    color: #004225;
     font-weight: 900;
 }
 
-/* for french-roast page */
+/* for images */
 div {
     text-align: center;
 }
 
-.heading {
+/* for french-roast page */
+.french-toast .heading {
     color: #711809;
     text-align: center;
     font-weight: 1000;
     background-color: #F2A14C;
 }
 
-.content {
+.french-toast .content {
     color: #824027;
     font-weight: 600;
 }
 
-.ft-title {
-    color: maroon;
+.french-toast-title {
+    color: #711809;
+    background-color: #F2A14C;
+    text-align: center;
+    font-weight: 1000;
+}
+
+/* for doughnut */
+.doughnut .heading {
+    color: #6D3030;
+    text-align: center;
+    font-weight: 1000;
+    background-color: #DBB0B8;
+}
+
+.doughnut .content {
+    color: #8E3E3E;
+    font-weight: 600;
+}
+
+.doughnut .title {
+    color: #6D3030;
+    background-color: #DBB0B8;
+    text-align: center;
+    font: 1000;
 }
