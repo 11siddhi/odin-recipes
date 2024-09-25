@@ -1,89 +1,62 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #EBF8BF;
 }
 
-.content {
-    font-size: 18px;
-}
-.index .title {
-    color: #004225;
-    background-color: #E86A33;
-    text-align: center;
+.title {
+    display: block;
     font-weight: 1000;
-}
-
-/* changes the color of list's bullet points */
-.index li::marker {
-    color: #E86A33;
+    color: #BD4F6C;
+    border: 2px solid #D7816A;
+    margin: 5px auto;
+    padding: 5px;
     text-align: center;
-}
-
-.recipe-link {
-    color: #004225;
-    font-weight: 900;
 }
 
 /* for images */
-div {
-    text-align: center;
+img {
+    display: inline-block;
+    width: 500px;
+    object-fit: cover;
+    margin: 10px 5%;
+    border: 2px solid #D7816A;
 }
 
-/* for french-roast page */
-.french-toast .heading {
-    color: #711809;
-    text-align: center;
+.img-desc {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.heading, .description {
+    display: block;
     font-weight: 1000;
-    background-color: #F2A14C;
+    margin: 5px;
+    padding: 5px;
+    color: #518D75;
+    text-align: center;
 }
 
-.french-toast .content {
-    color: #824027;
+.heading {
+    border: 2px solid #D7816A; 
+}
+
+
+.content, .recipe-link {
+    font-size: 18px;
     font-weight: 600;
+    color: #BD4F6C;
+    width: 600px;
+    margin:15px auto;
+    text-align: left;
 }
 
-.french-toast .title {
-    color: #711809;
-    background-color: #F2A14C;
-    text-align: center;
-    font-weight: 1000;
-}
-
-/* for doughnut */
-.doughnut .heading {
-    color: #6D3030;
-    text-align: center;
-    font-weight: 1000;
-    background-color: #DBB0B8;
-}
-
-.doughnut .content {
-    color: #8E3E3E;
-    font-weight: 600;
-}
-
-.doughnut .title {
-    color: #6D3030;
-    background-color: #DBB0B8;
-    text-align: center;
-    font-weight: 1000;
-}
-
-/* for pizza */
-.pizza .heading {
-    color: #251104;
-    text-align: center;
-    font-weight: 1000;
-    background-color: #C66504;
-}
-
-.pizza .content {
-    font-weight: 600;
-    color: #5A3720;
-}
-
-.pizza .title {
-    color: #251104;
-    background-color: #C66504;
-    text-align: center;
-    font-weight: 1000;
+.content, .steps {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 15px;
 }
