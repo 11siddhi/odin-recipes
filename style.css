@@ -11,52 +11,72 @@
     font-weight: 1000;
     color: #BD4F6C;
     border: 2px solid #D7816A;
-    margin: 5px auto;
+    margin: 5px;
     padding: 5px;
     text-align: center;
-}
-
-/* for images */
-img {
-    display: inline-block;
-    width: 500px;
-    object-fit: cover;
-    margin: 10px 5%;
-    border: 2px solid #D7816A;
 }
 
 .img-desc {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.heading, .description {
-    display: block;
-    font-weight: 1000;
+.img, .desc {
+    margin: 5px;
+    /* padding: 0px; */
+    width: 500px;
+    height: auto;
+}
+
+.img {
+    width: 500px;
+    height: 300px;
+    border: 2px solid #D7816A;
+}
+
+.desc {
+    flex: 2;
+}
+
+li::marker {
+    font-weight: bold; /* Makes the bold */
+    color: #518D75;
+  }
+
+p {
     margin: 5px;
     padding: 5px;
-    color: #518D75;
-    text-align: center;
+    color: #BD4F6C;
+    font-weight: 600;
+}
+
+.recipe-link, .ingredients, .steps {
+    /* border: 2px solid #4b3732; */
+    margin: 0px;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+}
+
+.heading, .content {
+    margin: 5px;
+    padding: 5px;
+    /* border: 2px solid pink; */
 }
 
 .heading {
-    border: 2px solid #D7816A; 
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #D7816A;
+    text-align: center;
+    color: #518D75;
 }
 
-
-.content, .recipe-link {
-    font-size: 18px;
-    font-weight: 600;
+.content {
+    margin-left: 20%;
+    margin-right: 20%;
     color: #BD4F6C;
-    width: 600px;
-    margin:15px auto;
-    text-align: left;
-}
-
-.content, .steps {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    gap: 15px;
 }
